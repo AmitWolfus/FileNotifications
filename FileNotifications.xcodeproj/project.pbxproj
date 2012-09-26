@@ -7,11 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28185A3A1611C802006C2C41 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28185A391611C802006C2C41 /* libz.dylib */; };
+		28185A3D1611E564006C2C41 /* AWFileConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 28185A3C1611E564006C2C41 /* AWFileConstants.h */; };
+		28185A44161209FE006C2C41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FF5736160DD0C200395D80 /* Cocoa.framework */; };
+		28185A4A161209FE006C2C41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28185A48161209FE006C2C41 /* InfoPlist.strings */; };
+		28185A4C161209FE006C2C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28185A4B161209FE006C2C41 /* main.m */; };
+		28185A50161209FE006C2C41 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 28185A4E161209FE006C2C41 /* Credits.rtf */; };
+		28185A53161209FE006C2C41 /* AWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28185A52161209FE006C2C41 /* AWAppDelegate.m */; };
+		28185A56161209FE006C2C41 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28185A54161209FE006C2C41 /* MainMenu.xib */; };
+		28903B721610E8EC00F369D2 /* AWDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 28903B701610E8EC00F369D2 /* AWDirectory.h */; };
+		28903B731610E8EC00F369D2 /* AWDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 28903B711610E8EC00F369D2 /* AWDirectory.m */; };
 		28FF5737160DD0C200395D80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FF5736160DD0C200395D80 /* Cocoa.framework */; };
 		28FF5741160DD0C200395D80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28FF573F160DD0C200395D80 /* InfoPlist.strings */; };
+		28FF5750160DD21B00395D80 /* AWFileListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FF574E160DD21B00395D80 /* AWFileListener.h */; };
+		28FF5751160DD21B00395D80 /* AWFileListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FF574F160DD21B00395D80 /* AWFileListener.m */; };
+		28FF5754160DF51D00395D80 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FF5753160DF51D00395D80 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28185A391611C802006C2C41 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		28185A3C1611E564006C2C41 /* AWFileConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFileConstants.h; sourceTree = "<group>"; };
+		28185A42161209FE006C2C41 /* FileNotificationTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileNotificationTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28185A47161209FE006C2C41 /* FileNotificationTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileNotificationTester-Info.plist"; sourceTree = "<group>"; };
+		28185A49161209FE006C2C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28185A4B161209FE006C2C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28185A4D161209FE006C2C41 /* FileNotificationTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileNotificationTester-Prefix.pch"; sourceTree = "<group>"; };
+		28185A4F161209FE006C2C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		28185A51161209FE006C2C41 /* AWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAppDelegate.h; sourceTree = "<group>"; };
+		28185A52161209FE006C2C41 /* AWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAppDelegate.m; sourceTree = "<group>"; };
+		28185A55161209FE006C2C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28903B701610E8EC00F369D2 /* AWDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDirectory.h; sourceTree = "<group>"; };
+		28903B711610E8EC00F369D2 /* AWDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDirectory.m; sourceTree = "<group>"; };
 		28FF5733160DD0C200395D80 /* FileNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FF5736160DD0C200395D80 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		28FF5739160DD0C200395D80 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -20,13 +46,26 @@
 		28FF573E160DD0C200395D80 /* FileNotifications-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileNotifications-Info.plist"; sourceTree = "<group>"; };
 		28FF5740160DD0C200395D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28FF5742160DD0C200395D80 /* FileNotifications-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileNotifications-Prefix.pch"; sourceTree = "<group>"; };
+		28FF574E160DD21B00395D80 /* AWFileListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFileListener.h; sourceTree = "<group>"; };
+		28FF574F160DD21B00395D80 /* AWFileListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFileListener.m; sourceTree = "<group>"; };
+		28FF5753160DF51D00395D80 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		28185A3F161209FE006C2C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28185A44161209FE006C2C41 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28FF572F160DD0C200395D80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28185A3A1611C802006C2C41 /* libz.dylib in Frameworks */,
+				28FF5754160DF51D00395D80 /* CoreServices.framework in Frameworks */,
 				28FF5737160DD0C200395D80 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,10 +73,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28185A45161209FE006C2C41 /* FileNotificationTester */ = {
+			isa = PBXGroup;
+			children = (
+				28185A51161209FE006C2C41 /* AWAppDelegate.h */,
+				28185A52161209FE006C2C41 /* AWAppDelegate.m */,
+				28185A54161209FE006C2C41 /* MainMenu.xib */,
+				28185A46161209FE006C2C41 /* Supporting Files */,
+			);
+			path = FileNotificationTester;
+			sourceTree = "<group>";
+		};
+		28185A46161209FE006C2C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28185A47161209FE006C2C41 /* FileNotificationTester-Info.plist */,
+				28185A48161209FE006C2C41 /* InfoPlist.strings */,
+				28185A4B161209FE006C2C41 /* main.m */,
+				28185A4D161209FE006C2C41 /* FileNotificationTester-Prefix.pch */,
+				28185A4E161209FE006C2C41 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		28FF5727160DD0C200395D80 = {
 			isa = PBXGroup;
 			children = (
+				28185A391611C802006C2C41 /* libz.dylib */,
 				28FF573C160DD0C200395D80 /* FileNotifications */,
+				28185A45161209FE006C2C41 /* FileNotificationTester */,
 				28FF5735160DD0C200395D80 /* Frameworks */,
 				28FF5734160DD0C200395D80 /* Products */,
 			);
@@ -47,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				28FF5733160DD0C200395D80 /* FileNotifications.framework */,
+				28185A42161209FE006C2C41 /* FileNotificationTester.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +119,7 @@
 		28FF5735160DD0C200395D80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				28FF5753160DF51D00395D80 /* CoreServices.framework */,
 				28FF5736160DD0C200395D80 /* Cocoa.framework */,
 				28FF5738160DD0C200395D80 /* Other Frameworks */,
 			);
@@ -74,6 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				28FF573D160DD0C200395D80 /* Supporting Files */,
+				28FF574E160DD21B00395D80 /* AWFileListener.h */,
+				28FF574F160DD21B00395D80 /* AWFileListener.m */,
+				28903B701610E8EC00F369D2 /* AWDirectory.h */,
+				28903B711610E8EC00F369D2 /* AWDirectory.m */,
+				28185A3C1611E564006C2C41 /* AWFileConstants.h */,
 			);
 			path = FileNotifications;
 			sourceTree = "<group>";
@@ -95,12 +166,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FF5750160DD21B00395D80 /* AWFileListener.h in Headers */,
+				28903B721610E8EC00F369D2 /* AWDirectory.h in Headers */,
+				28185A3D1611E564006C2C41 /* AWFileConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		28185A41161209FE006C2C41 /* FileNotificationTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28185A57161209FE006C2C41 /* Build configuration list for PBXNativeTarget "FileNotificationTester" */;
+			buildPhases = (
+				28185A3E161209FE006C2C41 /* Sources */,
+				28185A3F161209FE006C2C41 /* Frameworks */,
+				28185A40161209FE006C2C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileNotificationTester;
+			productName = FileNotificationTester;
+			productReference = 28185A42161209FE006C2C41 /* FileNotificationTester.app */;
+			productType = "com.apple.product-type.application";
+		};
 		28FF5732160DD0C200395D80 /* FileNotifications */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28FF5748160DD0C200395D80 /* Build configuration list for PBXNativeTarget "FileNotifications" */;
@@ -141,11 +232,22 @@
 			projectRoot = "";
 			targets = (
 				28FF5732160DD0C200395D80 /* FileNotifications */,
+				28185A41161209FE006C2C41 /* FileNotificationTester */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		28185A40161209FE006C2C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28185A4A161209FE006C2C41 /* InfoPlist.strings in Resources */,
+				28185A50161209FE006C2C41 /* Credits.rtf in Resources */,
+				28185A56161209FE006C2C41 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28FF5731160DD0C200395D80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,16 +259,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		28185A3E161209FE006C2C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28185A4C161209FE006C2C41 /* main.m in Sources */,
+				28185A53161209FE006C2C41 /* AWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28FF572E160DD0C200395D80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FF5751160DD21B00395D80 /* AWFileListener.m in Sources */,
+				28903B731610E8EC00F369D2 /* AWDirectory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		28185A48161209FE006C2C41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28185A49161209FE006C2C41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28185A4E161209FE006C2C41 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28185A4F161209FE006C2C41 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		28185A54161209FE006C2C41 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28185A55161209FE006C2C41 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		28FF573F160DD0C200395D80 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -178,6 +315,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		28185A58161209FE006C2C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileNotificationTester/FileNotificationTester-Prefix.pch";
+				INFOPLIST_FILE = "FileNotificationTester/FileNotificationTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28185A59161209FE006C2C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileNotificationTester/FileNotificationTester-Prefix.pch";
+				INFOPLIST_FILE = "FileNotificationTester/FileNotificationTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		28FF5746160DD0C200395D80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -258,6 +419,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28185A57161209FE006C2C41 /* Build configuration list for PBXNativeTarget "FileNotificationTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28185A58161209FE006C2C41 /* Debug */,
+				28185A59161209FE006C2C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		28FF572C160DD0C200395D80 /* Build configuration list for PBXProject "FileNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -274,6 +443,7 @@
 				28FF574A160DD0C200395D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
